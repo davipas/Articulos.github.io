@@ -1,0 +1,36 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Acme', sans-serif;
+}
+html{
+	font-size: 62.5%;
+}
+header {
+	width: 100%;
+	height: 50vh;
+	background-image: url('https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_150,h_63/https://altruistas.org/wp-content/uploads/2020/05/PHP_Altruistas_ocio_cursos_eventos_Las_Palmas.jpg');
+	opacity: 0.85;
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 7rem;
+}
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	row-gap: 20px;
+	padding: 100px 150px;
+	background-color: rgb(150, 150, 150);
+	font-size: 2rem;
+}
+main h1 {
+	color: rgb(0, 0, 0);
+	font-size: 7rem;
+	text-align: center;
+}
